@@ -13,6 +13,7 @@ namespace SugestionBox1.Models
 
         [Key] //this refers only to the line immediately after it//
         public int RecordNum { get; set; }
+        public string Name { get; set; }
 
         public string Topic
         {
